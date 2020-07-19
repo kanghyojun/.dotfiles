@@ -7,3 +7,6 @@
 [submodule "tmux.conf"]
 	path = tmux.conf
 	url = https://github.com/kanghyojun/tmux.conf.git
+[submodule "gitconfig"]
+	path = gitconfig
+	url = https://github.com/kanghyojun/gitconfig.git

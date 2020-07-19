@@ -1,13 +1,7 @@
 git submodule update --init --recursive
 
-pushd zshrc
-    . ./install.sh
-popd
-
-pushd nvimrc
-    . ./install.sh
-popd
-
-pushd tmux.conf
-    . ./install.sh
-popd
+for dir in "zshrc" "nvimrc" "tmux.conf" "gitconfig"; do
+    pushd "$dir"
+        . ./install.sh
+    popd
+done
