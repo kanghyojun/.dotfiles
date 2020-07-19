@@ -1,0 +1,9 @@
+[submodule "zshrc"]
+	path = zshrc
+	url = https://github.com/kanghyojun/zshrc
+[submodule "nvimrc"]
+	path = nvimrc
+	url = https://github.com/kanghyojun/nvimrc
+[submodule "tmux.conf"]
+	path = tmux.conf
+	url = https://github.com/kanghyojun/tmux.conf.git
