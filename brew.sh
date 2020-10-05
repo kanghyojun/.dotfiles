@@ -14,7 +14,7 @@ brew_installed="$(brew list)"
 cask_installed="$(brew list --cask)"
 
 brew_packages=("git" "zsh" "neovim" "ripgrep" "fzf" "pyenv" "nodenv" "tmux" "helm" "gnupg" "exa" "kubectl" "pipx" "awscli")
-cask_packages=("iterm2" "firefox-nightly" "keybase" "hammerspoon" "1password" "docker")
+cask_packages=("iterm2" "firefox-nightly" "keybase" "hammerspoon" "1password" "docker" "google-chrome")
 
 echo "Install homebrew packages …"
 for pack in "${brew_packages[@]}"; do
